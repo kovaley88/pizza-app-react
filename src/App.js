@@ -4,9 +4,7 @@ import { Cart, Home } from './scss/Pages';
 import { Routes, Route } from "react-router";
 
 
-
 function App() {
-
 
   return (
 
