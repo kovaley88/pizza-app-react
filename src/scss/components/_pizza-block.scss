@@ -14,7 +14,7 @@
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 20px;
@@ -48,21 +48,25 @@
           border-radius: 5px;
           cursor: auto;
         }
+        &.disabled {
+          opacity: 0.3;
+          pointer-events: none;
+        }
       }
     }
-  }
 
-  &__bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
+    &__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
 
-  &__price {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
+    &__price {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 27px;
+      letter-spacing: 0.015em;
+    }
   }
 }
