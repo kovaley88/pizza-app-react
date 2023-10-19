@@ -37,8 +37,6 @@ function Categories({ items }) {
     setActiveItem(index);
   };
 
-  console.log(items);
-
   return (
     <div className="categories">
       <ul>
