@@ -17,7 +17,7 @@ function App() {
 
   }, [])
 
-  console.log(pizzas)
+
 
   return (
 
